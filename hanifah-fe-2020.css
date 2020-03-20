@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    z-index: 2;
+}
+
+section h3 {
+    font-family: 'Exo 2', sans-serif;
+    color: #62b1dd;
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-family: 'Exo 2', sans-serif;
+    color: #62b1dd;
+    margin-bottom: 60px;
+}
+
+.navbar .bg-white {
+    background-color: #ffffff;
+}
+
+.navbar.bg-beige {
+    background-color: rgb(224, 224, 173);
+}
+
+.navbar .nav-link {
+    color:  #62b1dd;
+}
+
+.navbar .dropdown-menu {
+    background-color: #62b1dd;
+}
+
+.navbar .dropdown-item{
+    color: #faf467;
+    font-size: 20px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: transparent;
+    color: rgb(253, 253, 230);
+}
+
+.navbar .vertical { 
+    border-left: 3px solid #62b1dd; 
+    height: 30px; 
+    position:absolute; 
+    top: 35%;
+} 
+
+@media (max-width: 575.98px ) { 
+    .main {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        background-color: rgb(250, 244, 103);
+        color: rgb(56, 56, 50);
+    }
+    .main .maintext {
+        height: 150px;
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+    }
+    
+    .main .btn-search {
+        background-color: #62b1dd;
+        color: #ffffff;
+        margin-left: 5px;
+    }
+    
+    .main .subtext {
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 20px;
+    }
+    .main .form-control {
+        width: 140px;
+        height: 40px;
+        offset: 0;
+    }
+
+    .navbar .vertical { 
+        border-left: 3px solid #62b1dd; 
+        height: 30px; 
+        position:absolute; 
+        top: 35%;
+        display: none;
+    }
+}
+
+
+
+.main .img-move-1 {
+    position: absolute;
+    top: 0;
+}
+.main .img-move-2 {
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.main .img-move-3 {
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+.main .img-move-4 {
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+
+.main .img-move-5 {
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.main .img-move-6 {
+    position: absolute;
+    top: 0;
+    left: 75%;
+}
+
+.main .img-cloud {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+@media (min-width: 576px) { 
+    .main {
+        position: relative;
+        height: 85vh;
+        width: 100%;
+        background-color: rgb(250, 244, 103);
+        color: rgb(56, 56, 50);
+    }
+    .main .maintext {
+        height: 300px;
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+    }
+    
+    .main .btn-search {
+        background-color: #62b1dd;
+        color: #ffffff;
+        margin-left: 5px;
+    }
+    
+    .main .subtext {
+        text-align: center;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 50px;
+    }
+}
+
+.package {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.package .wrapper {
+    display: flex;
+    flex-direction: unset;
+}
+
+@media (max-width: 575.98px ) { 
+    .package .wrapper {
+        display: block;
+    }
+}
+    
+
+.package .card-title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    color: rgb(83, 24, 29);
+}
+
+.package .card-body {
+    padding: 0px;
+    background-color: #faf467;
+}
+
+.package .card-body .data {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.package .btn-package {
+    background-color:  rgb(83, 24, 29);
+    color: beige;
+    margin-bottom: 20px;
+    position: relative;
+    left: 28%;
+}
+
+.livechat {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.livechat .chat {
+    color:  rgb(126, 37, 44);
+    font-weight: 800;
+}
+
+.benefits {
+   padding-right: 0px;
+   padding-left: 0px;
+}
+
+.benefits .bg-yellow {
+    background-color: #faf467;
+}
+
+.customers {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.customers .btn-more {
+    border-color: #62b1dd;
+    padding: 20px;
+    color: #62b1dd;
+}
+
+.faqs {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.faqs h3{
+    color: rgb(83, 24, 29);
+}
+
+.faqs .card-accordion {
+    background-color:  #ffffff;
+    border-top-color: rgb(83, 24, 29);
+    border-bottom-color: rgb(83, 24, 29);
+    border-left: #ffffff;
+    border-right: #ffffff;
+    border-radius: 0px;
+    padding-left: 0px;
+    
+}
+
+.faqs .card-accordion-open {
+    background-color:  #ffffff;
+    border-top-color: #ffffff;
+    border-bottom-color: rgb(83, 24, 29);
+    border-left: #ffffff;
+    border-right: #ffffff;
+    border-radius: 0px;
+}
+
+.faqs .card-accordion-close{
+    background-color:  #ffffff;
+    border-top-color: rgb(83, 24, 29);
+    border-bottom-color: #ffffff;
+    border-left: #ffffff;
+    border-right: #ffffff;
+    border-radius: 0px;
+}
+
+.faqs .card-header {
+    background-color:  #ffffff;
+    border-bottom-color: rgb(83, 24, 29);
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.faqs .btn-accordion {
+    color: rgb(83, 24, 29);
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    background-color:  #ffffff;
+}
+
+.faqs .body-accordion {
+    color: rgb(83, 24, 29);
+    background-color: #faf467;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.awards h2{
+    color: rgb(83, 24, 29);
+}
+
+.img-footer{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+div.foot {
+    background-color: #884646;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(211, 207, 207);
+    border-top: none;
+    padding: none;
+    padding-bottom: 0;
+}
+
+.foot h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.foot p {
+    font-size: 15px;
+}
+.foot a {
+    color: rgb(167, 164, 164);
+    padding-left: 0;
+    padding-bottom: 0;
+}
